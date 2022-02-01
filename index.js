@@ -93,14 +93,14 @@ function sumNumber3() {
 function exampleSolution1() {
   for (let i = 0; i < 1; ) {
     let example = +prompt("Реши пример 2 + 2 * 2");
-    // if (example === 8) {
-    //   console.log("Умничка, ответ 8");
+    // if (example === 6) {
+    //   console.log("Умничка, ответ 6");
     //   ++i;
     // } else {
     //   console.log("Думай давай, бездарь");
     // }
-    example === 8
-      ? (console.log("Умничка, ответ 8"), ++i)
+    example === 6
+      ? (console.log("Умничка, ответ 6"), ++i)
       : console.log("Думай давай, бездарь");
   }
 }
@@ -109,8 +109,8 @@ function exampleSolution2() {
   let i = 0;
   while (i < 1) {
     let example = +prompt("Реши пример 2 + 2 * 2");
-    if (example === 8) {
-      console.log("Умничка, ответ 8");
+    if (example === 6) {
+      console.log("Умничка, ответ 6");
       ++i;
     } else {
       console.log("Думай давай, бездарь");
@@ -121,8 +121,8 @@ function exampleSolution3() {
   let i = 0;
   do {
     let example = +prompt("Реши пример 2 + 2 * 2");
-    if (example === 8) {
-      console.log("Умничка, ответ 8");
+    if (example === 6) {
+      console.log("Умничка, ответ 6");
       ++i;
     } else {
       console.log("Думай давай, бездарь");
